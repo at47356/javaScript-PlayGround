@@ -1,0 +1,55 @@
+@font-face {
+    font-family: bellfort;
+    src: url(../Bellfort/Bellfort.ttf) format('truetype');
+    font-weight: normal;
+}
+
+/* {
+    border: solid red;
+} */
+
+nav h1 {
+    font-family: "bellfort", sans-serif;
+    font-size: 200px;
+    margin: 10px;
+    font-weight: 100;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+
+.hero {
+    margin-left: 7% ;
+    margin-right: 7%;
+    padding: 5em 15em 20em 5em;
+    background-color: transparent;
+    background-image: url("../images/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right top;
+}
+
+.hero .container h3{
+    font-size: 100px;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 2px 14px 18px #170101;
+    color: rgb(47, 44, 44);
+    /*text-shadow: 2px 2px 2px #000000;*/
+    /*background-image: url(../images/background3.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text; */
+
+}
+
+
+
+
+

@@ -9,7 +9,16 @@
     <script src="/script.js"></script>
 </head>
 <body>
-    
+ 
+<nav class="nav-bar">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="./pages/practice.html">Explore</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+</nav>    
+
+
 
 <button onclick="document.getElementById('surprise').innerHTML = 'Now you see moi!';
                  document.getElementById('surprise').style.fontSize = '30px';
@@ -20,11 +29,22 @@
                  document.getElementById('surprise').style.textAlign = 'center';
                  document.getElementById('surprise').style.marginRight = '50%;'
                  document.getElementById('surprise').style.marginLeft = '42%';
-                 document.getElementById('surprise').style.fontWeight = '600'
+                 document.getElementById('surprise').style.fontWeight = '600'"
+                >Try me if you dare
+</button>
 
-
-                 
-                 ">Try me if you dare</button>
+<button onclick="document.getElementById('surprise').innerHTML = '';
+                 document.getElementById('surprise').style.fontSize = '30px';
+                 document.getElementById('surprise').style.backgroundColor = 'lightGrey';
+                 document.getElementById('surprise').style.fontFamily = 'Lora';
+                 document.getElementById('surprise').style.width = '0px';
+                 document.getElementById('surprise').style.borderRadius = '0px';
+                 document.getElementById('surprise').style.textAlign = 
+                 document.getElementById('surprise').style.marginRight = '0;'
+                 document.getElementById('surprise').style.marginLeft = '0';
+                 document.getElementById('surprise').style.fontWeight = '0'"
+                >Reverse
+</button>
 
 <p id="surprise"></p>
 
